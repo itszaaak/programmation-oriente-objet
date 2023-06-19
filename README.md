@@ -106,10 +106,11 @@ Le principe d'ouverture/fermeture (Open/Closed Principle) stipule que les objets
         - Polymorphisme universel :
             - Générique/paramétré : Une seule implémentation qui gère plusieurs types à la fois, soit n'importe quel type ou un type et ses sous-types.
             - Inclusion (passage par sous-typage) : Traitement générique indépendant du type de la variable, permettant de manipuler n'importe quel type concret. Il est utilisé pour créer des structures complexes (comme un conteneur) dont le comportement est indépendant de l'objet qu'ils contiennent. Par exemple, une liste chaînée avec des opérations qui travaillent sur les listes chaînées indépendamment du type de la liste.
-    - Polymorphisme à la demande (polymorphisme ad hoc) :
+    - pour le polymorphisme à la demande (polymorphisme ad hoc) :
         - Chaque type a une implémentation spécifique pour la fonction correspondante. Ainsi, le système choisit l'implémentation la plus appropriée en fonction du type réel des éléments manipulés.
-    - Polymorphisme générique :
-        - Une seule implémentation qui gère plusieurs types à la fois, soit n'importe quel type ou un type et ses sous-types.
-    - Inclusion :
-        - Il s'agit de la notion de sous-type et d'héritage/redéfinition.
-        - Les sous-types sont des sous-ensembles des ensembles de types, acceptant les familles de types et créant une hiérarchie de types.
+    - pour le polymorphisme universel :
+        - polymorphisme generique  
+          - Une seule implémentation qui gère plusieurs types à la fois, soit n'importe quel type ou un type et ses sous-types.
+        - Inclusion :
+          - Il s'agit de la notion de sous-type et d'héritage/redéfinition.
+          - Les sous-types sont des sous-ensembles des ensembles de types, acceptant les familles de types et créant une hiérarchie de types.
