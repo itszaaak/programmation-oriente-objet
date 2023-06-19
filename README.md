@@ -17,11 +17,9 @@
   - [Reedifinition et surcharge](###Reedifinition-et-surcharge)
   - [Classes abstraites et interfaces](###Classes-abstraites-et-interfaces)
   - [la delegation](###la-delegation)
-  - [le sous typage](###le-sous-typage)
+  - [le sous typage](###le-sous-typage)  
 11[Projets](##Projets)
 
-
-Polymorphisme
 
 
 ## Paradigme orienté objet
