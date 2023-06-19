@@ -77,7 +77,7 @@ example de constructeur en java avec initialisation des atributs et acesseurs
 ```java
 public class Personne{
 
-private string name;    //atributs privees de la classe
+private String name;    //atributs privees de la classe
 private int age;
 
 public Personne(String name, int age){   //constructeur 
