@@ -1,8 +1,8 @@
 # programmation-oriente-objet
 
 ## Sommaire
-1.[Les Types](#Paradigme-orienté-objet)   
-
+1.[Introduction](#Paradigme-orienté-objet)   
+2.[Objet](#objet)   
 ## Paradigme orienté objet
 
 Le paradigme orienté objet est une approche de programmation qui cherche à résoudre l'état global des langages impératifs en introduisant des concepts tels que les objets distincts et les interfaces homme-machine.
