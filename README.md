@@ -1,7 +1,7 @@
 # programmation-oriente-objet
 
 ## Sommaire
-1.[Intro](##Paradigme-orienté-objet)  
+1.[Intro](## Paradigme-orienté-objet)  
 2.[Objet](##Objet)  
 3.[Encapsulation](##Encapsulation)  
 4.[Interface Implementation et remplacabilité](##Interface-Implementation-et-remplacabilité)  
