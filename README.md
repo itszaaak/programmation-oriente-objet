@@ -1,24 +1,26 @@
 # programmation-oriente-objet
 
 ## Sommaire
-1.[Intro](##Paradigme-orienté-objet)  
-2.[objet](##objet)  
-3.[Encapsulation](##Encapsulation)  
-4.[Interface Implementation et remplacabilité](##Interface-Implementation-et-remplacabilité)  
-5.[Classes et instances](##Classes-et-instances)  
-6.[atributs et methodes](##atributs-et-methodes)  
-7.[les methodes](##les-methodes)  
-8.[Constructeur destructeur et acesseur](##Constructeur-destructeur-et-acesseur)  
-9.[Elements statiques](##Elements-statiques)  
-10.[Extension](##Extension)  
-  - [proprietes](###proprietes)
-  - [Polymorphisme](###Polymorphisme)
-  - [Heritage](###proprietes)
-  - [Reedifinition et surcharge](###Reedifinition-et-surcharge)
-  - [Classes abstraites et interfaces](###Classes-abstraites-et-interfaces)
-  - [la delegation](###la-delegation)
-  - [le sous typage](###le-sous-typage)  
-11[Projets](##Projets)
+## Sommaire
+1. [Intro](##Paradigme-orienté-objet)
+2. [Objet](##Objet)
+3. [Encapsulation](##Encapsulation)
+4. [Interface, Implémentation et Remplaçabilité](##Interface,-Implémentation-et-Remplaçabilité)
+5. [Classes et Instances](##Classes-et-Instances)
+6. [Attributs et Méthodes](##Attributs-et-Méthodes)
+7. [Les Méthodes](##Les-Méthodes)
+8. [Constructeur, Destructeur et Accesseur](##Constructeur,-Destructeur-et-Accesseur)
+9. [Éléments Statiques](##Éléments-Statiques)
+10. [Extension](##Extension)
+    - [Propriétés](###Propriétés)
+    - [Polymorphisme](###Polymorphisme)
+    - [Héritage](###Héritage)
+    - [Redéfinition et Surcharge](###Redéfinition-et-Surcharge)
+    - [Classes Abstraites et Interfaces](###Classes-Abstraites-et-Interfaces)
+    - [La Délégation](###La-Délégation)
+    - [Le Sous-typage](###Le-Sous-typage)
+11. [Projets](##Projets)
+
 
 
 
