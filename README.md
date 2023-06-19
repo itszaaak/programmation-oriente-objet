@@ -114,3 +114,37 @@ Le principe d'ouverture/fermeture (Open/Closed Principle) stipule que les objets
         - Inclusion :
           - Il s'agit de la notion de sous-type et d'héritage/redéfinition.
           - Les sous-types sont des sous-ensembles des ensembles de types, acceptant les familles de types et créant une hiérarchie de types.
+
+### Heritage
+
+L'héritage est l'un des concepts fondamentaux de la programmation orientée objet. Il permet la création de nouvelles classes (sous-classes) basées sur des classes existantes (superclasses), en héritant de leurs attributs et de leurs méthodes. L'héritage permet de définir une hiérarchie de classes, où les sous-classes héritent du comportement et des caractéristiques des superclasses, tout en ayant la possibilité de modifier ou d'étendre ce comportement. Cela favorise la réutilisation du code et facilite la gestion des classes en les regroupant selon leurs similarités et leurs différences. L'héritage permet également de mettre en œuvre des relations "est-un", où une sous-classe est considérée comme une spécialisation ou une extension de sa superclasse. Grâce à l'héritage, il est possible de concevoir des architectures logicielles plus flexibles, évolutives et modulaires, tout en favorisant la lisibilité et la maintenabilité du code.
+
+### Reedifinition et surcharge
+
+La redéfinition et la surcharge sont deux mécanismes importants en POO, mais elles diffèrent dans leur fonctionnement.
+
+La redéfinition, permet de fournir une implémentation différente d'une méthode d'une superclasse pour chaque type spécifique de la sous-classe. Lorsque nous appelons une méthode sur une instance, la méthode appropriée est choisie en fonction du type réel de l'objet (this) qui reçoit le message. Ainsi, la résolution de la méthode est effectuée dynamiquement lors de l'exécution en fonction de la classe concrète de l'instance. Cela permet d'obtenir un comportement spécifique à chaque sous-classe, offrant une flexibilité et une adaptation aux différents types.
+
+La surcharge, quant à elle, consiste à fournir plusieurs implémentations d'une même méthode au sein d'une classe, mais avec des paramètres différents. Cela permet d'avoir plusieurs versions d'une méthode qui acceptent différents types ou nombres de paramètres. Par exemple, une classe peut avoir plusieurs constructeurs qui prennent différents ensembles de paramètres. La surcharge est résolue statiquement au moment de la compilation, où le compilateur détermine quelle méthode doit être appelée en fonction du type déclaré des paramètres passés. Ainsi, la méthode à appeler est décidée avant l'exécution, en fonction des types statiques des arguments.
+
+### Classes abstraites et interfaces
+
+Les classes abstraites et les interfaces sont des concepts clés en POO pour la création de modèles et de structures flexibles. Une classe abstraite est une classe qui ne peut pas être instanciée directement, mais sert de modèle pour d'autres classes dérivées. Elle peut contenir des méthodes abstraites, qui ne sont pas implémentées dans la classe abstraite elle-même, mais doivent être implémentées par ses sous-classes. Les classes abstraites permettent de définir des comportements communs et de fournir une base pour les classes spécialisées qui en héritent.
+
+D'autre part, les interfaces sont des contrats de comportement. Elles définissent un ensemble de méthodes (sans implémentation) qu'une classe doit implémenter pour adhérer à cette interface. Une classe peut implémenter plusieurs interfaces, ce qui lui permet d'offrir différentes fonctionnalités à travers ces interfaces. Les interfaces permettent la réalisation de multiples héritages et favorisent la modularité et la réutilisabilité du code.
+
+### la delegation
+
+la délégation en POO permet de créer des relations flexibles et modulaires entre les objets en déléguant certaines responsabilités à des objets spécialisés. Cela favorise la réutilisabilité du code, la séparation des préoccupations et la flexibilité dans l'évolution du comportement des objets.
+
+### le sous typage
+
+Le sous-typage est un concept clé en POO qui permet de définir des relations hiérarchiques entre les classes. Il repose sur le principe selon lequel une classe dérivée ou sous-classe peut être considérée comme un type plus spécifique de sa classe parente ou superclasse. En d'autres termes, une instance de la sous-classe peut être utilisée partout où une instance de la superclasse est attendue.
+
+Le sous-typage offre de nombreux avantages en termes de modularité et de réutilisabilité du code. Il permet de créer des hiérarchies de classes qui partagent des caractéristiques communes, tout en étendant ou en spécialisant le comportement de la classe parente. Cela permet d'écrire du code générique qui peut être utilisé avec des instances de différentes sous-classes, offrant ainsi une grande flexibilité et une conception plus modulaire.
+
+Le sous-typage facilite également le polymorphisme, qui est la capacité d'un objet à prendre différentes formes et à répondre de manière adaptée aux messages qu'il reçoit. Grâce au sous-typage, les instances de sous-classes peuvent être traitées de manière uniforme lorsqu'elles sont manipulées via des références de la superclasse, ce qui permet d'écrire du code plus générique et plus flexible.
+
+##Projets
+
+//todo
