@@ -4,7 +4,7 @@
 1. [Intro](#Paradigme-orienté-objet)
 2. [Objet](#Objet)
 3. [Encapsulation](#Encapsulation)
-4. [Interface, Implémentation et Remplaçabilité](#Interface,-Implémentation-et-Remplaçabilité)
+4. [Interface Implémentation et Remplaçabilité](#Interface-Implémentation-et-Remplaçabilité)
 5. [Classes et Instances](#Classes-et-Instances)
 6. [Attributs et Méthodes](#Attributs-et-Méthodes)
 7. [Les Méthodes](#Les-Méthodes)
@@ -44,7 +44,7 @@ L'objet dans le paradigme orienté objet est une entité autonome et isolée du 
 
 L'état, représentant les données, et le traitement, constitué des fonctions, sont regroupés dans une entité unique appelée objet, dont les détails internes sont masqués, comme une boîte opaque. L'interface d'un objet expose les moyens de communication avec lui, sans révéler les détails internes. Cela permet d'éviter les fuites d'information et confère une responsabilité unique à chaque objet, avec les interactions entre objets se faisant par le biais des interfaces. Le principe "tell, don't ask" encourage à déléguer les décisions à l'objet lui-même plutôt que de lui donner des instructions précises. L'encapsulation, qui englobe le masquage de l'état, facilite la séparation entre l'interface et l'implémentation, où les données et les traitements sont regroupés et isolés de l'extérieur. L'interface expose les fonctionnalités offertes par l'objet, permettant une interaction contrôlée avec celui-ci.
 
-## Interface, Implémentation et Remplaçabilité
+## Interface Implémentation et Remplaçabilité
 
 L'interface d'un objet représente un contrat abstrait qui garantit les fonctionnalités et les comportements qu'il est capable de fournir. Elle définit les messages et les interactions qui sont accessibles et disponibles pour interagir avec l'objet. L'interface spécifie les opérations autorisées, un peu comme les fichiers `.h` en `C` qui définissent une signature. Une interface constitue un type abstrait, défini par la manière dont on peut l'utiliser. Une bonne encapsulation est caractérisée par le fait que l'implémentation n'est pas visible à travers l'interface. Une mauvaise encapsulation survient lorsque la manière dont une tâche est réalisée est visible dans l'interface, ce qui conduit à une dépendance indésirable entre l'implémentation et l'interface. L'implémentation est la réalisation effective du code qui respecte l'interface, c'est-à-dire le contrat spécifié. Différentes implémentations peuvent exister pour la même interface. La capacité de remplacer une implémentation par une autre, tout en maintenant la même interface, favorise la modularité et permet des évolutions indépendantes grâce, par exemple, à l'utilisation de l'annotation @override pour substituer une méthode existante.
 
@@ -64,7 +64,7 @@ La séparation entre les commandes (méthodes avec effet de bord) et les requêt
 
 Ces principes de conception aident à écrire un code plus clair, modulaire et prévisible, favorisant une bonne encapsulation et un découplage des opérations sur les objets.
 
-## Constructeur, Destructeur et Accesseur
+## Constructeur Destructeur et Accesseur
 Pour créer une instance d'un objet, on utilise le constructeur. Un constructeur par défaut est un constructeur sans paramètres qui initialise les attributs avec des valeurs par défaut, tandis qu'un constructeur paramétré accepte des arguments pour initialiser les attributs de l'objet. L'instanciation comprend deux étapes : l'allocation d'espace mémoire pour l'objet et l'initialisation de ses attributs via le constructeur approprié. Le mot-clé "this" fait référence à l'instance elle-même et peut être utilisé en tant que paramètre implicite dans les constructeurs pour appeler d'autres constructeurs de la même classe, permettant ainsi la délégation d'initialisation. La surcharge des constructeurs permet de créer plusieurs versions de constructeurs avec des nombres différents de paramètres.
 
 En ce qui concerne les destructeurs, ils ne sont pas utiles en Java car la gestion de la mémoire est gérée par le garbage collector. Le garbage collector se charge de libérer automatiquement la mémoire des objets qui ne sont plus référencés. Cependant, la méthode "finalize" peut être définie dans une classe pour effectuer des actions spécifiques avant que l'objet soit libéré de la mémoire.
