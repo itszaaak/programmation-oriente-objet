@@ -8,7 +8,7 @@
 5. [Classes et Instances](#Classes-et-Instances)
 6. [Attributs et Méthodes](#Attributs-et-Méthodes)
 7. [Les Méthodes](#Les-Méthodes)
-8. [Constructeur, Destructeur et Accesseur](#Constructeur,-Destructeur-et-Accesseur)
+8. [Constructeur Destructeur et Accesseur](#Constructeur-Destructeur-et-Accesseur)
 9. [Éléments Statiques](#Éléments-Statiques)
 10. [Extension](#Extension)
     - [Propriétés](#Propriétés)
